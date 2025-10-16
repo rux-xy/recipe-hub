@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub - Share Your Favorite Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c5aa0;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .recipe-links {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .recipe-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+        .recipe-card h3 {
+            color: #2c5aa0;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recipe Hub</h1>
+        <p>Share and discover amazing recipes from around the world!</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="appetizers.html">Appetizers</a>
+        <a href="desserts.html">Desserts</a>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to Recipe Hub!</h2>
+        <p>This is your go-to platform for sharing and discovering delicious recipes. Browse our collection or contribute your own!</p>
+        
+        <div class="recipe-links">
+            <div class="recipe-card">
+                <h3>Appetizers</h3>
+                <p>Start your meal with these delicious appetizers</p>
+                <a href="appetizers.html">Browse Appetizers →</a>
+            </div>
+            
+            <div class="recipe-card">
+                <h3>Desserts</h3>
+                <p>Sweet treats to complete your dining experience</p>
+                <a href="desserts.html">Browse Desserts →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
